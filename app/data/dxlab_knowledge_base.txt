@@ -1,0 +1,4 @@
+DXLab Commander supports Icom, Yaesu, Kenwood, Elecraft, and Flex transceivers.
+To set up DXLab with WSJT-X, configure UDP port 2237.
+SpotCollector allows real-time DX cluster monitoring.
+

@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  dxlab-chatbot:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - OPENAI_API_KEY=your_openai_api_key_here
+    volumes:
+      - ./data:/data
+
